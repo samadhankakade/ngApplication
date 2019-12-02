@@ -1,0 +1,28 @@
+components:
+
+index
+    header
+    footer
+    home : default
+    about-us
+    contact-us
+
+products:
+    product-list : default
+    product-details
+    product-slider 
+    
+blog:
+    blog-list: default
+    blog-details
+
+* Signup:
+    sign-in
+    sign-up
+    forgot-password
+    reset-password
+
+* Checkout:
+    cart
+    checkout
+    payment
