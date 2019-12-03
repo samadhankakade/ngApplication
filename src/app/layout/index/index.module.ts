@@ -7,14 +7,17 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { CheckoutModule } from '../checkout/checkout.module';
+import { ProductsModule } from '../products/products.module';
+import { BlogModule } from '../blog/blog.module';
 
 
 @NgModule({
   declarations: [HeaderComponent, FooterComponent, HomeComponent, AboutUsComponent, ContactUsComponent],
   imports: [
     CommonModule,
-    IndexRoutingModule
+    IndexRoutingModule,
+    ProductsModule,
+    BlogModule
   ],
   exports: [HeaderComponent, FooterComponent, HomeComponent, AboutUsComponent, ContactUsComponent]
 })

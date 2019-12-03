@@ -26,3 +26,6 @@ blog:
     cart
     checkout
     payment
+    
+git:
+https://github.com/samadhankakade/ngApplication.git

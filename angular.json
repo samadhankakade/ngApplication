@@ -28,9 +28,26 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/vendor/theme/css/animate.css",
+              "src/assets/vendor/theme/css/font-awesome.css",
+              "src/assets/vendor/theme/css/furniture-icons.css",
+              "src/assets/vendor/theme/css/linear-icons.css",
+              "src/assets/vendor/theme/css/magnific-popup.css",
+              "src/assets/vendor/theme/css/owl.carousel.css",
+              "src/assets/vendor/theme/css/ion-range-slider.css",
+              "src/assets/vendor/theme/css/theme.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/jquery/jquery.min.js",
+              "src/assets/vendor/bootstrap/js/jquery.bootstrap.min.js",
+              "src/assets/vendor/theme/js/jquery.magnific-popup.min.js",
+              "src/assets/vendor/theme/js/jquery.owl.carousel.min.js",
+              "src/assets/vendor/theme/js/jquery.ion.rangeSlider.min.js",
+              "src/assets/vendor/theme/js/jquery.isotope.pkgd.js",
+              "src/assets/vendor/theme/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -124,6 +141,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ngApplication"
 }
